@@ -1,6 +1,6 @@
 # world_time
 
-An application to display world time map of different countries.
+A Flutter application to display world time map of different countries.
 
 ## Getting Started
 
