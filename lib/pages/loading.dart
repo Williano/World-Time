@@ -16,12 +16,14 @@ class _LoadingState extends State<Loading> {
 
     await instance.getTime();
 
-    Navigator.pushReplacementNamed(context, '/home', arguments: {
+    Map data = {
       "location": instance.location,
       "flag": instance.flag,
       "time": instance.time,
       "isDaytime": instance.isDaytime,
-    });
+    };
+
+    Navigator.pushReplacementNamed(context, '/home', arguments: data);
   }
 
   @override
