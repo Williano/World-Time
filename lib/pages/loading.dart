@@ -16,7 +16,7 @@ class _LoadingState extends State<Loading> {
     );
 
     await instance.getTime();
-    
+
     setState(() {
       time = instance.time;
     });
